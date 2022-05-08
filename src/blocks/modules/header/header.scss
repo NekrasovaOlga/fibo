@@ -1,0 +1,116 @@
+.header{
+    padding-top: 13px;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .logo{
+            display: flex;
+            align-items: center;
+            img{
+                margin-right: 52px;
+
+                width: 80px;
+                height: 59.13px;
+            }
+            .info{
+                &__adress{
+                    font-weight: 600;
+                    font-size: 17px;
+                    line-height: 21px;
+                    span{
+                        color: #F7D22D
+                    }
+                }
+                &__rating{
+                    display: flex;
+                    align-items: center;
+                    
+                    height: 16px;
+                    font-weight: 700;
+                    font-size: 13px;
+                    line-height: 16px;        
+                    &-yandex{
+                        position: relative;
+                        padding-left: 25px;
+                        padding-right: 18px;
+                        &::before{
+                            position: absolute;
+                            content: ' ';
+                            bottom: 0;
+                            left: 0;
+                            
+                            width: 18px;
+                            height: 18px;
+                            background-image: url('../img/ya-logo.png') ;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                        }
+                        &::after{
+                            position: absolute;
+                            content: ' ';
+                            bottom: 0;
+                            right: 0;
+                            
+                            width: 14px;
+                            height: 16px;
+                            background-image: url('../img/star.png') ;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                        }
+                    }
+                    &-time{
+                        margin-left: 20px;
+                    }
+                    &-dot{
+                        display: inline-block;
+                        height: 18px;
+                        width: 18px;
+                        position: relative;
+                        &::before{
+                            position: absolute;
+                            content: ' ';
+                            bottom: 3px;
+                            right: 0;
+                            border-radius: 5px;
+                            width: 4px;
+                            height: 4px;
+                            background: #FF2E65;
+                            margin: 0 7px;
+                        }
+                        
+                    }
+                }
+            }
+            
+        }
+        .call{
+            display: flex;
+            align-items: center;
+            &__button{
+                padding: 7px 27px;
+
+                background: #F3F3F7;
+                border-radius: 28px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 28px;
+                color: #696F7A;
+
+                margin-right: 28px;
+            }
+            &__phone{
+                font-weight: 700;
+                font-size: 26px;
+                line-height: 32px;
+
+
+                color: #F7D22D;
+            }
+        }
+    }
+}

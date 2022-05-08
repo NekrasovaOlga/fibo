@@ -2,3 +2,16 @@ h1, h2, h3, h4, h5, h6, ul {
     margin: 0;
     padding: 0;
 }
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    font-family: 'Montserrat';
+    color: #231F20;
+}
