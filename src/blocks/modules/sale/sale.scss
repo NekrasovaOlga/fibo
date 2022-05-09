@@ -1,0 +1,43 @@
+.sale{
+    text-align: center;
+    padding-bottom: 62px;
+    background-image: url('../img/girl.png');
+    background-position: bottom -100px right;
+    background-repeat: no-repeat;
+    &__title{
+        font-weight: 800;
+        font-size: 44px;
+        line-height: 54px;
+        color: #0E0C0D;
+        margin-bottom: 47px;
+        span{
+            color: #F7D22D;
+        }
+    }
+    &__banner{
+        display: flex;
+        margin-bottom: 48px;
+        &-big{
+            margin-right: 29px;
+        }
+        &-small{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 27px 29px;
+            img{
+                width: 256px;
+                height: 189px;
+            }
+        }
+    }
+    &__button{
+        padding: 10px 40px;
+        background: #F7D22D;
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 28px;
+        border-radius: 23px;
+        
+    }
+}
