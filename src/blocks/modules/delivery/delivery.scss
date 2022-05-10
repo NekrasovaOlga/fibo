@@ -1,49 +1,56 @@
-.delivery{
+.delivery {
     background: #E3ECF5;
     padding: 56px 0 76px;
-    &__title{
+
+    &__title {
         font-size: 30px;
-line-height: 37px;
+        line-height: 37px;
 
-text-align: center;
+        text-align: center;
 
-color: #F7D22D;
-margin-bottom: 63px;
+        color: #F7D22D;
+        margin-bottom: 63px;
     }
-    &__advantage{
+
+    &__advantage {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 0 30px;
         margin-bottom: 32px;
-        &-item{
+
+        &-item {
             display: flex;
             flex-direction: column;
             align-items: center;
             position: relative;
         }
-        &-icon{
+
+        &-icon {
             position: absolute;
             top: -30px;
             width: 77px;
-height: 77px;
-background:#FFFFFF;
-display: flex;
-align-items: center;
-justify-content: center;
-border-radius: 50px;
+            height: 77px;
+            background: #FFFFFF;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50px;
         }
-        &-description{
+
+        &-description {
             font-weight: 700;
-font-size: 14px;
-line-height: 22px;
-/* or 157% */
+            font-size: 14px;
+            line-height: 22px;
+            /* or 157% */
 
 
-color: #473E43;
-padding: 43px 20px 17px;
-background: #FFFFFF;
-box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.03);
-border-radius: 14px;
+            color: #473E43;
+            padding: 43px 20px 17px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.03);
+            border-radius: 14px;
         }
     }
 }
+
+
