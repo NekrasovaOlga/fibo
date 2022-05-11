@@ -1,10 +1,11 @@
-@media screen and (max-width: 1170px) and (min-width: 737px) {
+@media screen and (max-width: 1170px) and (min-width: 758px) {
     
     .katalog {
         &__products{
             grid-template-columns: repeat(2, 1fr);
             gap: 30px;
         }
+        
     }
     .sale{
         &__banner{
@@ -130,4 +131,217 @@
         }
 }
     
+}
+
+
+@media screen and (max-width: 757px) and (min-width: 0) {
+    .container{
+        max-width: 90%;
+    }
+    .katalog {
+        &-new{
+            display: none;
+        }
+        &__products{
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+        }
+        &-item{
+
+            &__title{
+                font-size: 18px;
+line-height: 20px;
+            }
+            &__description{
+                font-size: 16px;
+            }
+        }
+    }
+    .sale{
+        &__banner{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 30px;
+            &-big{
+                margin-right: 19px;
+                img{
+                    width: 300px;
+                    height: 213px;
+                }
+            }
+            &-small{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 12px;
+                img{
+                    width: 144px;
+                    height: 101px;
+                }
+            }
+        }
+    }
+    .delivery {
+        &__advantage {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 60px 30px;
+            margin-bottom: 51px;
+        }
+        &__map{
+            
+            img{
+                width:100%;
+                height: 322px;
+                border-radius: 14px;
+            }
+        }
+    }
+
+    footer {
+        padding: 52px 0 20px;
+        .footer{
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 50px;
+            &__menu{
+                position: relative;
+                min-width: 100%;
+
+                &-button{
+                    margin-top: 101px;
+                    margin-bottom: 8px;
+                    a{
+                        
+                        margin-right: 12px;
+                        margin-bottom: 8px;
+                    }
+                }
+                &-adress{
+                    font-size: 9px;
+                    max-width: 103px;
+                }
+                &-social{
+                    &__title{
+                        font-size: 12px;
+                        margin-bottom: 8px;
+                    }
+                }
+                &-button, &-social{
+                    margin-left: 0;
+                    font-size: 10px;
+                }
+                &-logo{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+                &-block{
+                    a{
+                        font-size: 10px;
+                    }
+                }
+
+            }
+            &__law{
+                width: 100%;
+                font-size: 10px;
+                &-pay{
+                    position: absolute;
+                    bottom: -5px;
+                    right: 0;
+                    img{
+                        width: 22.88px;
+                        height: 22.88px;
+                    }
+                }
+            }
+            &__connection {
+                margin-top: 0;
+                &-buttons{
+                    position: relative;
+                    max-width: 300px;
+                    margin-top: 15px;
+                    padding-bottom: 52px;
+                    margin-bottom: 0;
+                }
+                &-phone{
+                    margin-bottom: 0;
+                    font-size: 21px;
+                }
+                &-button {
+                    border: 2px solid #E3ECF5;
+                    border-radius: 13px;
+                    width: 40px;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    
+                    img {
+                        width: 21px;
+                        height: 20px;
+                        padding: 0;
+                        
+                    }
+                    &:last-child{
+
+                        border: 2px solid #E3ECF5;
+                        border-radius: 13px;
+                        position: absolute;
+                        bottom: 0;
+                        width: 100%;
+                    }
+    
+                }  
+                &-btn{
+                    width: 131px;
+                    display: inline-block;
+                    font-size: 10px;
+                    padding: 2px 20px;
+
+                    
+                }  
+            }
+            &__block-call{
+                position: absolute;
+                top: 0;
+                right: 0;
+
+                align-items: end;
+            }
+           
+        }
+    }
+    
+    .info{
+        display: none;
+    }
+    .header {
+        .container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .call{
+            
+            &__button{
+                display: none!important;
+            }
+            &__phone{
+                display: none;
+            }
+        }
+    }
+    .menu{
+        margin-top: 0!important;
+        &__button-signin{
+            display: none;
+        }
+        &__button-cart{
+            margin-left: 0!important;
+        }
+        nav{
+            display: none !important;
+        }
+}
 }
