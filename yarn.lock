@@ -7570,11 +7570,13 @@ bem-tools-create@bem-tools/bem-tools-create:
     imagemin-pngquant: ^9.0.0
     imagemin-webp: ^6.0.0
     imagemin-zopfli: ^7.0.0
+    jquery: ^3.6.0
     lint-staged: ^12.3.5
     postcss: ^8.4.8
     postcss-scss: ^4.0.3
     require-dir: ^1.2.0
     sass: ^1.49.9
+    slick-carousel: ^1.8.1
     stylelint: ^14.5.3
     stylelint-config-standard-scss: ^3.0.0
     stylelint-order: ^5.0.0
@@ -9213,6 +9215,13 @@ bem-tools-create@bem-tools/bem-tools-create:
   bin:
     jpeg-recompress: cli.js
   checksum: 4a8b0f57c742bc97e54b01f4f95bfd1f4d95844f7443cc1bbc1146b016d7c7d386ffd0581dfdbe29090c106a1c22eea8f88ebe7534cf738f1bf7f3b30c89c6db
+  languageName: node
+  linkType: hard
+
+"jquery@npm:^3.6.0":
+  version: 3.6.0
+  resolution: "jquery@npm:3.6.0"
+  checksum: 8fd5fef4aa48fd374ec716dd1c1df1af407814a228e15c1260ca140de3a697c2a77c30c54ff1d238b6a3ab4ddc445ddeef9adce6c6d28e4869d85eb9d3951c0e
   languageName: node
   linkType: hard
 
@@ -13199,6 +13208,15 @@ bem-tools-create@bem-tools/bem-tools-create:
     ansi-styles: ^6.0.0
     is-fullwidth-code-point: ^4.0.0
   checksum: 7e600a2a55e333a21ef5214b987c8358fe28bfb03c2867ff2cbf919d62143d1812ac27b4297a077fdaf27a03da3678e49551c93e35f9498a3d90221908a1180e
+  languageName: node
+  linkType: hard
+
+"slick-carousel@npm:^1.8.1":
+  version: 1.8.1
+  resolution: "slick-carousel@npm:1.8.1"
+  peerDependencies:
+    jquery: ">=1.8.0"
+  checksum: acaad391e4d8bc1c7fdb8d361faa1f1d60829b31d618b54bc38c0550a59b26de36537e0ab4bc0364176ec11d1a61d0cf11e99d8d5b1285d656673c9a1a719257
   languageName: node
   linkType: hard
 

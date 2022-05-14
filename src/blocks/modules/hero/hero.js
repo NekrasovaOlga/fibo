@@ -1,15 +1,22 @@
 import $ from "jquery";
 import slick from "slick-carousel";
 
-$('.popular__slider').slick({
+$('.hero__slider').slick({
     infinite: true,
-    arrows: false,
-    slidesToShow: 4,
+    prevArrow: `<div class="arrow arrow-left"></div>`,
+    nextArrow: `<div class="arrow arrow-right"></div>`,
+    slidesToShow: 3,
     slidesToScroll: 1,
-    adaptiveHeight: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
+    centerMode: true,
+    variableWidth: true,
     responsive: [
+      {
+        breakpoint: 1670,
+        settings: {
+          slidesToShow: 2,
+          centerMode: true,
+        }
+      },
         {
           breakpoint: 1170,
           settings: {
@@ -19,7 +26,6 @@ $('.popular__slider').slick({
         {
           breakpoint: 757,
           settings: {
-            arrows: false,
             slidesToShow: 1,
             variableWidth: true
           }

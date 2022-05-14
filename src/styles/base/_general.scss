@@ -8,10 +8,13 @@ h1, h2, h3, h4, h5, h6, ul {
     margin: 0;
     padding: 0;
 }
-
+body{
+    overflow-x: hidden;
+}
 a {
     text-decoration: none;
     cursor: pointer;
+    color: #0E0C0D;
 }
 button{
     outline: none;
@@ -29,6 +32,6 @@ button{
 
 @media screen and (max-width: 1170px) and (min-width: 737px) {
     .container {
-        max-width: 727px;
+        max-width: 80%;
     }
 }
