@@ -26,3 +26,15 @@ $('.popular__slider').slick({
         }
       ]
 });
+
+let modalClose = document.querySelector('.modal__close')
+let modal = document.querySelector('.modal')
+let cartBtn = document.querySelector('.katalog__cart-button')
+
+modalClose.onclick = (e) => {
+  modal.style.display = 'none'
+}
+
+cartBtn.onclick = (e) => {
+  modal.style.display = 'flex'
+}
